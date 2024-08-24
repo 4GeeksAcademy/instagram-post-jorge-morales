@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.post{
+
+    justify-content: center;
+    position: relative;
+    /*border: 2px solid green;*/
+    margin: auto;
+    height: 700px;
+    width: 400px;
+}
+
+.post-header{
+    display: flex;
+    position: static;   
+    align-items: center;
+    /*border: 2px solid red;*/
+    height: 60px;
+    width: 400px;
+
+}
+
+.icon-head img {
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.text-head {
+    width: 320px;
+}
+
+.text-head span {
+    font-size: 15px;
+}
+
+.menu-head {
+    font-size: 30px;
+}
+
+.post-img img {
+    position: relative;
+    width: 400px;
+    object-fit: contain;
+}
+
+.post-body-icons{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 25px;
+    padding: 0 10px 0 10px;
+    
+}
+
+.body-icons-left {
+    width: 95%;
+}
+
+.post-body-icons i:hover {
+    color: red;
+}
+
+.body-cont p {
+    font-size: 15px;
+}
